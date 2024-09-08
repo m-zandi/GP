@@ -16,6 +16,19 @@
 	  "keywordsEn": ""
 	 }
 	</script>
+
+//redirecting any address to index
+   <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // The path after the domain (e.g., /fgjjgx)
+            const currentPath = window.location.pathname;
+
+            // If the path is anything other than root ("/"), redirect to index.html
+            if (currentPath !== "/" && currentPath !== "/index.html") {
+                window.location.href = "/index.html";
+            }
+        });
+    </script>
 	<div style="display:none;">gutsping, 'gutsping', 'web developing', 'web design' </div>
     <!-- KEYWORDS SECTION FINSHED FROM HERE -->	
     <title>GutsPing</title>
