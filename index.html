@@ -18,14 +18,14 @@
 	</script>
 
 //redirecting any address to index
-   <script>
+    <script>
         document.addEventListener("DOMContentLoaded", function() {
             // The path after the domain (e.g., /fgjjgx)
             const currentPath = window.location.pathname;
 
-            // If the path is anything other than root ("/"), redirect to index.html
-            if (currentPath !== "/" && currentPath !== "/index.html") {
-                window.location.href = "/index.html";
+            // If the path is anything other than root ("/"), redirect to the root ("/")
+            if (currentPath !== "/") {
+                window.location.href = "/";
             }
         });
     </script>
