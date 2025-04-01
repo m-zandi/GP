@@ -110,7 +110,7 @@
             const minutesElement = document.getElementById('minutes');
             const secondsElement = document.getElementById('seconds');
 
-            const endDate = new Date('May 9, 2024 00:00:00').getTime();
+            const endDate = new Date('May 28, 2025 00:00:00').getTime();
 
             function updateCountdown() {
                 const now = new Date().getTime();
